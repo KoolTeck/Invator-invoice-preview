@@ -20,7 +20,7 @@ body{
 }
 
 
-/* header start */
+/* header start here */
 div.parent{
     background-color: rgba(0, 0, 0, 0.445);
     width: 100%;
@@ -96,8 +96,6 @@ div.parent{
     display: block;
 }
 
-
-
 .logo-container{
     display: flex;
     align-items: center;
@@ -157,11 +155,10 @@ div.parent{
     text-transform: uppercase;
 }
 
-/*nav background*/
+/*nav background don't remove this*/
 
 body > div > nav > div{
     width: 100%;
-    /*background-color:#1F1F1F;*/
 }
 
 
@@ -185,6 +182,35 @@ div.card{
     border: 0;
     margin: 0;
     padding: 0;
+}
+
+/* remove not */
+@media screen and (min-width: 1000px){
+    .nav{
+        padding: 1rem 0.5rem;;
+    }
+    .nav-center{
+        width: 100%;
+        /* max-width: var(--max-width); */
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-header{
+        padding: 0;
+    }
+    .nav-toggle{
+        display: none;
+    }
+    .links-container{
+        height: auto !important;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+    } 
 }
 
 /* main styling */
@@ -312,33 +338,6 @@ ul.invoice-ul li{
 }
 
 
-@media screen and (min-width: 1000px){
-    .nav{
-        padding: 1rem 0.5rem;;
-    }
-    .nav-center{
-        width: 100%;
-        /* max-width: var(--max-width); */
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .nav-header{
-        padding: 0;
-    }
-    .nav-toggle{
-        display: none;
-    }
-    .links-container{
-        height: auto !important;
-    }
-    .links{
-        display: flex;
-        align-items: center;
-    } 
-}
 
 
 
