@@ -10,32 +10,7 @@ navToggle.addEventListener('click', function(){
     navToggle.classList.toggle('show-icon')
 })
 
-
-// tabbed content
-const tabs = document.querySelector(".tabs");
-const panels = document.querySelectorAll('.panel');
-tabs.addEventListener('click', function(e){
-	if (e.target.tagName == 'LI') {
-		const targetPanel = document.querySelector(e.target.dataset.target);
-		panels.forEach(function(panel){
-			if(panel == targetPanel) {
-				panel.classList.add('active');
-			} else{
-				panel.classList.remove('active');
-				
-			}
-		});
-	}
-});
-
-
-// tabbed image
-function myFunction(imgs) {
-  let expandImg = document.getElementById("expandedImg");
-  let imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-
-
+// boostrap modal
+$('#myModal').on('shown.bs.modal', function () {
+	$('#myInput').trigger('focus')
+  })

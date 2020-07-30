@@ -35,7 +35,9 @@ div.parent{
     width: 90%;
     height: auto;
     padding: 20px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
+
 
 .nav{
     background-color: var(--white);
@@ -109,7 +111,7 @@ div.parent{
 
 .logo-container a{
     text-decoration: none;
-    color: var(--blue);
+    color: var(--navy-blue);
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -131,7 +133,7 @@ div.parent{
 }
 
 .links-container a.active{
-    color:var(--navy-blue);
+    color:var(--blue);
 }
 
 .links{
@@ -144,7 +146,7 @@ div.parent{
     font-weight: 500;
     font-size: 21px;
     line-height: 26px;
-    color: var(--blue);
+    color: var(--navy-blue);
     padding: 20px;
 }
 
@@ -186,8 +188,126 @@ div.card{
 }
 
 /* main styling */
-.preview{
-    
+.preview h1{
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    font-family: 'Monteserat',serif;
+}
+
+.preview div.card1 {
+    padding: 6px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    color: #ffffff;
+    height: auto;
+}
+
+.preview div.card1 p{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 130px;
+}
+
+.preview div.card1 button.btn{
+    margin: 0 18%;
+    background-color: var(--navy-blue);
+    color: #ffffff;
+}
+
+.invoice-wrapper{
+    border-top: 2px solid #b2beb5;
+    border-bottom: 2px solid #b2beb5;
+    padding: 15px;
+}
+
+.invoice-wrapper h3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Monteserat';
+}
+
+.invoice-wrapper h2{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Monteserat';
+    text-align: right;
+}
+
+.invoice-wrapper ul li{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.invoice-wrapper h2.logo{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Monteserat';
+    text-align: left;
+}
+
+table td{
+    font-size: 12px;
+}
+
+div.col-md-8.col-lg-8 > div > div > div:nth-child(3) > table > tbody > tr:nth-child(5){
+    background-color: #ffffff;
+}
+
+div.col-md-8.col-lg-8 > div > div > div:nth-child(3) > table > tbody > tr:nth-child(7){
+    background-color: #ffffff;
+}
+
+.blue{
+    background-color: var(--blue);
+    color: #ffffff;
+}
+
+.invoice-wrapper div.card2{
+    text-align: right;
+    background-color: var(--blue);
+    color: #ffffff;
+    padding: 10px;
+}
+
+.invoice-top{
+    padding-bottom: 40px;
+}
+
+.invoice-base h4{
+    font-size: 15px;
+    font-family: 'Monteserat';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.invoice-base p{
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 'Monteserat';
+}
+
+.invoice-base div.left{
+    text-align: right;
+}
+
+.invoice-base h3{
+    color: var(--blue);
+}
+
+ul.invoice-ul li{
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 'Monteserat';
+}
+
+/* modal */
+.modal-title{
+    color: var(--navy-blue);
 }
 
 
