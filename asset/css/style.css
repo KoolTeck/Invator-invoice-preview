@@ -358,52 +358,30 @@ ul.invoice-ul li{
 /*media quarries*/
 
 @media screen and (max-width: 1200px) {
-    #contact > div > div > div:nth-child(1) > div{
-        right: 0;
-    }
-
-    #contact  h1{
-        font-family: 'Montserrat';
-        margin: 0px;
-    }
-        
-    #form form h1{
-        font-size: 30px;
-    }
-
-    #contact > div > div > div:nth-child(1) > div h1{
-        font-size: 30px;
-    }
-
+    .preview div.card1 button.btn {
+        margin: 0;
+        width: 100%;
+        } 
+    
 }
-
-@media screen and (max-width: 1200px){
-    #footer > div.container > div:nth-child(2) > div:nth-child(2) > span{
-        margin-right: unset;
-    }
-
-    #footer > div.container > div:nth-child(2) > div:nth-child(1) > span{
-        margin-left: unset;
-    }
-}
-
 
 
 @media screen and (max-width: 1004px) {
+    
     .links {
     margin-right: 0;
     padding: 20px;
     margin-top: 50px;
-}
+ }
 
     .show-links  {
     height: 400px;
     text-align: center;
-}
+ }
 
     .nav-toggle {
     height: 60px;
-}
+ }
     .nav{
        padding: 20px;
     }
@@ -426,350 +404,10 @@ ul.invoice-ul li{
 }
 
 
-@media screen and (max-width: 980px){
-    #Pricing div.card {
-    background: #FFFFFF;
-     border: 0; 
-     margin: 0;
-}
+@media screen and (max-width:500px){
     
-    #Pricing p{
-        font-size: 18px;
-    }
-
-    #Pricing button.btn{
-        width: 100%;
-    }
-
-    #Pricing {
-    width: 100%;
-    height: auto;
-  }
-
-  #form {
-    background-color: #5DF199;
-    width: 100%;
-    height: auto;
-    background: #FFFFFF;
-     margin-top: 0; 
-     padding: 0; 
-}
-
-    #form > form > h1{
-        padding: 0;
-    }
-
-    #contact > div > div > div:nth-child(1) > div {
-    width: 100%;
-    height: auto;
-    padding: 35px;
-    margin-top: 9%;
-    right: 100px;
-}
-
-        #contact div.container {
-    height: auto;
-    padding: 50px;
-  }
-
-  #contact {
-    height: auto;
-  }
-
-}
-
-
-@media screen and (max-width: 980px){
-   #contact > div > div > div:nth-child(1) > div{
-    right: 0;
-}
-
-    #testimonial h1{
-        margin-top: 40px;
-    } 
-
-    #testimonial{
-        height: auto;
-    }
-}
-
-
-@media screen and (max-width: 770px) {
-    #contact > div > div > div:nth-child(1) > div{
-    position: unset;
- }
-
- #footer > div.container > div:nth-child(2) > div:nth-child(1) > span {
-    margin-left: 0px;
-}
-
-
-    #footer > div.container > div:nth-child(2) > div:nth-child(2) > span {
-    margin-right: 20px;
-    font-size: 18px;
-    }
-
-    #footer {
-    height: auto;
-    background: #1D1D1D;
-    padding: 20px;
-   }
-
-   #expandedImg{
-    width: 100%;
-   }
-
-   #gallery > div.container.img-container {
-     left: 0px; 
-    width: 100%;
-    height: 90%;
-    }
-
-    .logo {
-    height: auto;
-  }
-
-  .logo-container a {
-    padding: 0;
-    margin: 0;
- }
-
- #expandedImg {
-    width: 100%;
-    padding-top: 15%;
- }
-}
-
-@media screen and (max-width: 560px){
-    #carouselExampleControls > a.carousel-control-prev > span:nth-child(1) > img{
-    padding-right: 0px;
-  }
-
-   h1{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-   }
-
-   p{
-    font-size: 14px;
-    line-height: 17px;
-   }
-
-   #Pricing {
-    /* padding: 40px; */
-   }
-
-   #gallery{
-    /* padding: 40px; */
-   }
-
-
-  #top-section{
-    height: auto;
-  }
-
-  #Pricing div.card{
-    margin: 10px;
-  }
-}
-
-@media screen and (max-width: 485px){
-    #carouselExampleControls > a.carousel-control-next > span:nth-child(1) > img{
-    padding-right: 0px;
-}
-    #footer > div.container > div:nth-child(2) > div:nth-child(1) > span{
-        padding: 0;
-        margin: 0;
-    }
-
-    #footer > div.container > div:nth-child(2) > div:nth-child(2) > span {
-    margin-right: 0px;
-    font-size: 15px;
-    padding: 0;
-}
-
-#testimonial p{
-    font-size: 15px;
-}
-
-#testimonial h1{
-    font-size: 18px;
-}
-
-#contact h1{
-     font-size: 18px;
-}
-
-#contact p{
-     font-size: 15px;
-}
-#contact > div > div > div:nth-child(1) > div h1{
-    font-size: 18px;
-}
-
-#contact div.container{
-    padding: 40px;
-  }
-
-  #top-section div.container{
-    padding: 10px;
-  }
-
-#top-section h1{
-    line-height: 26px;
-    font-size: 20px;
-}
-
-#top-section  p{
-    font-weight: 500;
-    font-size: 9px;
-    line-height: 9px;
-}
-
-    #top-section div.container img {
-    padding-top: 80px;
-    width: 50%;
-  }
-
-  #top-section div.container button.btn {
-     margin-top: 0px; 
-    width: 61.42px;
-    height: 21.86px;
-    font-size: 7.2866px;
-    line-height: 9px;
-}
-
-#gallery{
-    padding: 0;
-  }
-
-  #gallery div.col-4{
-    padding: 0;
-  }
-
-  #gallery h1{
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-#tabbed-content li{
-    font-size: 14px;
-   line-height: 17px;
-}
-
-#expandedImg {
-    width: 100%;
-    padding-top: 50%;
- }
-
- #Pricing{
-    padding: 0px;
- }
-  #Pricing h1{
-    font-size: 18px;
-    padding: 0px;
-  }
-
-  #Pricing h2{
-    font-size: 18px;
-  }
-
-  #Pricing p{
-    font-size: 10px;
-  }
-
-  #Pricing button.btn{
-    height: 48px;
-    font-size: 18px;
-    line-height: 22px;
-    border-radius: 0;
-  }
-
-  #form > form > h1{
-    font-size: 18px;
-  }
-
-  #contact > div > div > div:nth-child(1) > div{
-    padding: 10px;
-  }
-
-  #form button.btn{
-     height: 48px;
-     font-size: 16px;
-    line-height: 20px;
-    border-radius: 0;
-  }
-
-  #form input::placeholder{
-    font-size: 9px;
-  }
-
-#form select{
-    font-size: 9px;
-}
-
-#form  textarea{
-    height: 114px;
- }
-
-  #form textarea::placeholder{
-    font-size: 9px;
-  }
-
-  #footer > div.container > div a{
-    font-size: 10px;
-  }
-
-  #footer > div.container > div:nth-child(2) > div:nth-child(2) > span{
-    font-size: 9px;
-  }
-
-  #footer > div.container > div:nth-child(2) > div:nth-child(1) > span{
-    border-right: none;
-    font-size: 10px;
-    padding: 4px;
-  }
-
-  #footer > div.sec-two > p{
-    font-size: 9px;
-  }
-
-  #footer > div.container > div:nth-child(2) > div:nth-child(1) > span img{
-      width: 20px;
-      height: 20px;
-  }
-
-  #footer > div.container > div:nth-child(2) {
-    padding-top: unset;
-}
-
-}
-
-@media screen and (max-width:300px) {
-    #footer img.card-img-top {
-        width: 30px;
-        height: auto;
-        display: flex;
-        padding: 3px;
-        margin: 0;
-    }
-
-    #contact div.container{
-        padding: 3px;
-    }
-
-    #Pricing h1 {
-        padding: unset;
-    }
-
-    #Pricing {
-        padding: unset;
-    }
 }
 @media screen and (max-width:300px){
-    #footer > div.container > div a{
-        font-size: 6px;
-    }
+   
 }
 
