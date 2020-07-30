@@ -405,7 +405,8 @@ ul.invoice-ul li{
 
 
 @media screen and (max-width:500px){
-    
+    table.table-striped{
+    }
 }
 @media screen and (max-width:300px){
    
