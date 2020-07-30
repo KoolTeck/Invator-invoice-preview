@@ -9,7 +9,7 @@
     <!-- fonts -->
      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="./asset/fonts/Bobbers Personal Use.ttf">
-    <link rel="stylesheet" href="./asset/css/aos.css">
+    <link rel="stylesheet" href="./asset/css/animate.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./asset/css/style.css">
     <!-- fontawesome -->
@@ -81,10 +81,10 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4 card1">
                         <p>Your invoice is ready click below to preview your Invoice</p>
-                        <a href="#"><button class="btn">Preview</button></a>
+                        <a href="#"><button class="btn wow pulse" data-wow-iteration="infinite" id="toggleButton">Preview</button></a>
                         <p>You can also download or export the invoice to your mail</p>
-                        <a href="#"><button class="btn">Download</button></a>  <br> <br>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="email">Get through mail</button> 
+                        <a href="#"><button class="btn wao pulse">Download</button></a>  <br> <br>
+                        <button type="button" class="btn btn-primary wao pulse" data-wow-iteration="infinite" data-toggle="modal" data-target="#exampleModal" data-whatever="email">Get through mail</button> 
                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
@@ -109,7 +109,7 @@
 
                     <div class="col-sm-12 col-md-8  col-lg-8">
                         <p>Your invoice  will display here</p>
-                        <div class="invoice-wrapper">
+                        <div class="invoice-wrapper wao bounceInUp" id="invoice">
                             <div class="invoice-inner">
                                 <h2 class="logo">LOGO</h2>
                                 <div class="row invoice-top">
@@ -244,8 +244,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="./asset/js/script.js"></script>
-    <script src="./asset/js/lib/aos.js"></script>
-   <script>AOS.init();</script>
+    <script src="./asset/js/lib/wao.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>

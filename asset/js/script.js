@@ -14,3 +14,13 @@ navToggle.addEventListener('click', function(){
 $('#myModal').on('shown.bs.modal', function () {
 	$('#myInput').trigger('focus')
   })
+// toggling the invoice
+  $("#toggleButton").click(function(){
+    $("#invoice").toggle();
+  });
+
+  // $(document).ready(function(){
+  //   $("button").click(function(){
+  //     $("p").toggle();
+  //   });
+  // });
